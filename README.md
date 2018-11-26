@@ -1,7 +1,8 @@
 # Dactyl-Manuform-6x6
 Layout and files changed for the Dactyl Manuform 6x6 keyboard 
 
-Download qmk_firmware_master from https://github.com/qmk/qmk_firmware
+Download qmk_firmware_master from https://github.com/qmk/qmk_firmware,
+I actually used the firmware from here: https://github.com/tshort/qmk_firmware. From looking, it seems to be a more out of date version. It has a folder in the keyboards/ folder for dactyl-manuform. That where these changes should occur.
 
 Within qmk_firmware/keyboards/dactyl-manuform do the following;
   1) Replace your dactyl-manuform.h with this one, it contains the basic layout for 6x6.
